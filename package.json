@@ -1,0 +1,22 @@
+{
+  "name": "data_structures",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "start": "node --experimental-strip-types src/App.ts"
+  },
+  "devDependencies": {
+    "@types/node": "25.3.2",
+    "typescript": "~5.9.3",
+    "vite": "8.0.0-beta.13",
+    "vitest": "4.0.18"
+  },
+  "overrides": {
+    "vite": "8.0.0-beta.13"
+  }
+}
