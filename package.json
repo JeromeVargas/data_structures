@@ -4,11 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "vitest",
-    "start": "node --experimental-strip-types src/App.ts"
+    "start": "node --experimental-strip-types src/App.ts",
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "25.8.0",
